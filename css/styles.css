@@ -7,6 +7,8 @@
    --white-font: rgb(255,255,255, 1);
    --background-title: rgb(47, 48, 58, 1);
    --paragraph-color: rgb(117, 117, 117,1); 
+   --second-background: rgba(245, 244, 250, 1);
+
  }
 
  body {
@@ -19,8 +21,8 @@ color: var(--blue-text);
 font-family:'Raleway', sans-serif;
 font-weight: bold;
 font-size: 26px;
-line-height: 1.17;
-letter-spacing: 3%;
+line-height: 1.2;
+letter-spacing: 0.03em;
 text-decoration: none;
  }
 
@@ -28,14 +30,19 @@ text-decoration: none;
 color: var(--dominant-color);
 font-weight: 500;
 font-size: 14px;
-line-height: 1.17;
-letter-spacing: 2%;
+line-height: 1.2;
+letter-spacing: 0.02em;
 text-decoration: none;
  }
 
  .navigation-bar .navigation-link:hover {
    color: var(--blue-text);
  }
+
+ .navigation-bar .navigation-link:focus {
+  color: var(--blue-text);
+ }
+
  .navigation-item {
    list-style: none;
  }
@@ -44,8 +51,8 @@ text-decoration: none;
    color: var(--paragraph-color);
    font-weight: 500;
    font-size: 14px;
-   line-height: 1.17;
-   letter-spacing: 2%;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
    text-decoration: none;
     }
    
@@ -53,6 +60,9 @@ text-decoration: none;
       color: var(--blue-text);
     }
 
+    .contacts .contacts-link:focus {
+      color: var(--blue-text);
+    }
     .contacts-item {
       list-style: none;
     }
@@ -61,8 +71,8 @@ text-decoration: none;
       color: var(--white-font);
       font-weight: 900;
       font-size: 44px;
-      line-height: 60px;
-      letter-spacing: 1.36;
+      line-height: 1.4;
+      letter-spacing: 0.06em;
       text-align: center;
       text-transform: uppercase;
     }
@@ -75,9 +85,8 @@ text-decoration: none;
       color:var(--white-font);
       background-color: var(--blue-text);
       font-weight:700;
-      font-size:16px;
-      line-height: 1.87;
-      letter-spacing: 6%;
+      line-height: 1.9;
+      letter-spacing: 0.06em;
       width: 261px;
       height: 50px;
       border-radius:4px;
@@ -87,16 +96,16 @@ text-decoration: none;
     .about-us-list .about-titles {
       font-weight: 700;
       font-size: 14px;
-      line-height: 1.17px;
-      letter-spacing: 3%;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
       text-transform: uppercase;
     }
 
     .about-us-list .about-text {
       color: var(--paragraph-color);
       font-size: 14px;
-      line-height: 1.71;
-      letter-spacing: 3%;
+      line-height: 1.8;
+      letter-spacing: 0.03em;
     }
  .about-us-item {
   list-style: none;
@@ -105,34 +114,35 @@ text-decoration: none;
 .our-services .services-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 3%;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
 .services-item {
   list-style: none;
 }
+.our-team {
+background-color: var(--second-background);
+}
 
 .our-team .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
-  letter-spacing: 3%;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
 .team-item .team-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.2;
   letter-spacing: 3%;
 }
 .team-item .team-position {
   color:var(--paragraph-color);
-  font-size: 16px;
-  line-height: 1.17; 
-  letter-spacing: 3%;
+  line-height: 1.2; 
+  letter-spacing: 0.03em;
 }
 
 .team-item {
@@ -143,8 +153,8 @@ text-decoration: none;
 .footer-list .link-address {
   color:var(--white-font);
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 3%;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
   
@@ -153,8 +163,8 @@ text-decoration: none;
 .footer-list .contact-link{
   color:var(--paragraph-color);
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 3%;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
 }
@@ -169,9 +179,8 @@ text-decoration: none;
 
 .navigation-buttons .button-nav {
   font-weight:500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 3%;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   height: 38px;
   border-radius: 4px;
   border: transparent;
@@ -196,14 +205,13 @@ text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   
 }
 .projects-list .description-project {
   color:var(--paragraph-color) ;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 3%;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .projects-item {
