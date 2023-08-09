@@ -73,13 +73,12 @@ text-decoration: none;
       font-size: 44px;
       line-height: 1.4;
       letter-spacing: 0.06em;
-      text-align: center;
       text-transform: uppercase;
     }
 
     .principal-section {
       background-color: var(--background-title);
-     text-align: center;
+      text-align: center;
     }
 
     .principal-section .request-button {
